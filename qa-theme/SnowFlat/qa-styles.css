@@ -9,7 +9,45 @@
 */
 
 
+/* swjaco11 code */
 
+/* user admin - administrator i super administrator*/
+
+.user-admin{
+	color: darkred;
+	font-weight: bold;
+}
+/* user mod - moderator*/
+.user-mod{
+	color: darkgreen;
+	font-weight: bold;
+}
+
+/* user editor - redaktor*/
+
+.user-editor{
+	color: darkpurple;
+	font-weight: bold;
+}
+ /* user expert - ekspert nadawany przez moderatorów i administratorów za pomoc, wiedzę o forum aktywność */
+.user-expert{
+	color: darkyellow;
+	font-weight: bold;
+}
+
+/* user blocked - uzytkownik zablokowany*/
+
+.user-blocked{
+	color: orange;
+}
+
+/* user normal - Zwykly uzytkownik bez dodatkowych uprawnien*/
+
+.user-normal{ 
+
+}
+
+/*END swjaco11 code */
 
 .clearfix, .qa-q-item-clear,
 .qa-nav-main-list, .qa-nav-sub,
