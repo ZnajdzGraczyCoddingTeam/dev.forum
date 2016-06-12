@@ -1,3 +1,8 @@
-### WSP”£PRACA
-###**1.** Jak wyglπda wspÛ≥praca?
-Kaødy ma prawo stworzyÊ w≥asnego **brancha** z w≥asnymi zmianami. Po ukoÒczeniu zmian, w kodzie, zak≥adamy **Issua** øeby grupa **Owners** sprawdzi≥a kod oraz ewentualnie zrobi≥a **Merga** do brancha **master**
+### WSP√ì≈ÅPRACA
+###**1.** Jak wyglƒÖda wsp√≥≈Çpraca?
+Ka≈ºdy ma prawo stworzyƒá w≈Çasnego **brancha** z w≈Çasnymi zmianami. Po uko≈Ñczeniu zmian, w kodzie, zak≈Çadamy **Issua** ≈ºeby grupa **Owners** sprawdzi≈Ça kod oraz ewentualnie zrobi≈Ça **Merga** do brancha **master**
+###**2.** Jak nazywaƒá branche?
+Branche nazywamy tak: 
+**`dev-NAZWA_WPROWADZANEJ-ZMIANY_DATA_ZALOZENIA_BRANCHA`**
+Czyli np.
+**`dev-edit_layout-12-06-2016`**
