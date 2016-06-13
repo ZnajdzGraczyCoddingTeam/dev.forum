@@ -1,6 +1,6 @@
 ### WSPÓŁPRACA
 ###**1.** Jak wygląda współpraca?
-Każdy ma prawo stworzyć własnego **brancha** z własnymi zmianami. Po ukończeniu zmian, w kodzie, zakładamy **Issua** żeby grupa **Owners** sprawdziła kod oraz ewentualnie zrobiła **Merga** do brancha **master**
+Każdy ma prawo stworzyć własnego **brancha** z własnymi zmianami. Po ukończeniu zmian, w kodzie, zakładamy **Pull requesta** żeby grupa **Owners** sprawdziła kod oraz ewentualnie zrobiła **Merga** do brancha **master**
 ###**2.** Jak nazywać branche?
 Branche nazywamy tak: 
 **`dev-NAZWA_WPROWADZANEJ-ZMIANY_DATA_ZALOZENIA_BRANCHA`**
