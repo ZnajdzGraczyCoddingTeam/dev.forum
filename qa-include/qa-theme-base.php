@@ -365,8 +365,9 @@ class qa_html_theme_base
 			'<script>',
 			"var b=document.getElementsByTagName('body')[0];",
 			"b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');",
-			'</script><script src="../sw-files/frontend/author_nick_effect.js"></script>'
+			'</script>'
 		);
+		require '../sw-files/backend/body_script.php';
 	}
 
 	public function body_header()
