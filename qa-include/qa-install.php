@@ -138,7 +138,10 @@ else {
 
 	if (qa_clicked('create')) {
 		qa_db_install_tables();
-
+		$SQLe = 'CREATE TABLE swjaco11_AllVisites (
+all_visit INT(6)
+) ';
+		qa_db_query_sub($SQLe);
 		if (QA_FINAL_EXTERNAL_USERS) {
 			if (defined('QA_FINAL_WORDPRESS_INTEGRATE_PATH')) {
 				require_once QA_INCLUDE_DIR.'db/admin.php';
