@@ -138,6 +138,7 @@ else {
 
 	if (qa_clicked('create')) {
 		qa_db_install_tables();
+		
 		$SQLe = 'CREATE TABLE swjaco11_AllVisites (
 all_visit INT(6)
 ) ';

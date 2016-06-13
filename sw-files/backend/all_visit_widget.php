@@ -17,10 +17,10 @@ $SQLb = 'SELECT all_visit FROM swjaco11_AllVisites';
 qa_db_query_sub($SQLa);
 $ALL = qa_db_query_sub($SQLb);
 
-echo $language['all_visit'].$ALL
-
 $language = array(
 	'all_visit' => 'Wszystkich odwiedzaj¹cych: '
 );
+
+echo $language['all_visit'].$ALL
 
 ?>

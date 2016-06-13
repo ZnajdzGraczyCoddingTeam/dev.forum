@@ -824,7 +824,9 @@ class qa_html_theme_base
 
 		$this->output('<div class="sw-user-calculate>"');
 		
+		
 		require '../sw-files/backend/all_visit_widget.php';
+		
 		
 		$this->output('</div>');
 		
