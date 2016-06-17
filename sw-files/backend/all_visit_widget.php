@@ -1,4 +1,6 @@
 <?php
+$dzialanie = false;
+if($dzialanie==true){
 if(qa_is_logged_in()==true){
 	$id = qa_get_logged_in_userid();
 	$level = qa_get_logged_in_level();
@@ -22,5 +24,5 @@ $language = array(
 );
 
 echo $language['all_visit'].$ALL
-
+}
 ?>

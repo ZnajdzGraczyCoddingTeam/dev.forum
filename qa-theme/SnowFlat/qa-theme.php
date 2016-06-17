@@ -57,6 +57,36 @@ class qa_html_theme extends qa_html_theme_base
 		$this->output('<meta name="viewport" content="width=device-width, initial-scale=1"/>');
 		parent::head_metas();
 	}
+	
+	public function post_meta_who($post, $class)
+{
+    $class = '';
+
+    switch ($post['raw']['level']) {
+        case QA_USER_LEVEL_SUPER:
+        case QA_USER_LEVEL_ADMIN:
+            $class = 'user-admin';
+        break;
+		case QA_USER_LEVEL_APPROVED:
+			$class= 'user-approved';
+		break;
+		case QA_USER_LEVEL_BASIC:
+			$class = 'user-no-approved';
+		break;
+		case QA_USER_LEVEL_EXPERT:
+			$class= 'user-expert';
+		break;
+		case QA_USER_LEVEL_EDITOR:
+			$class = 'user-editor';
+		break;
+		case QA_USER_LEVEL_MODERATOR:
+			$class = 'user-moderator';
+		break;
+    }
+
+    $post['who']['data'] = '<span class="' . $class . '">' . $post['who']['data'] . '</span>';
+    parent::post_meta_who($post, $class);
+}
 
 	/**
 	 * Adding theme stylesheets
