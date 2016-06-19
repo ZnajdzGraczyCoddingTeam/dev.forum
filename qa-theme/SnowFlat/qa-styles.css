@@ -32,6 +32,10 @@
 	font-weight: bold;
 }
 
+.qa-a-item-what a, .qa-a-item-what, .qa-a-item-what a:hover, qa-a-item-what a:focus, qa-a-item-what a{
+	color: grey;
+}
+
 /* user editor - redaktor*/
 
 .user-editor, .user-editor a{
