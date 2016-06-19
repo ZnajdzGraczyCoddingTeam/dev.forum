@@ -23,6 +23,6 @@ $language = array(
 	'all_visit' => 'Wszystkich odwiedzaj¹cych: '
 );
 
-echo $language['all_visit'].$ALL
+echo $language['all_visit'].$ALL;
 }
 ?>
