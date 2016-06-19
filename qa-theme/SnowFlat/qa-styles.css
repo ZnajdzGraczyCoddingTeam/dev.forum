@@ -153,20 +153,20 @@ body.body-overflow {
 }
 
 a {
-	color: #2980b9;
+	/*color: #2980b9;*/
 	text-decoration: none;
 }
 a:active, a:focus {
-	color: #3498db;
+	/*color: #3498db;*/
 	text-decoration: none;
 	outline: 0;
 }
 a:visited {
-	color: #2980b9;
+	/*color: #2980b9;*/
 	text-decoration: none;
 }
 a:hover {
-	color: #3498db;
+	/*color: #3498db;*/
 	text-decoration: underline;
 }
 
