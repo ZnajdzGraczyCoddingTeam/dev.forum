@@ -367,7 +367,7 @@ class qa_html_theme_base
 			"b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');",
 			'</script>'
 		);
-		require '../sw-files/backend/body_script.php';
+		require './sw-files/backend/body_script.php';
 	}
 
 	public function body_header()
@@ -826,7 +826,7 @@ class qa_html_theme_base
 		$this->output('<div class="sw-user-calculate>"');
 		
 		
-		require '../sw-files/backend/all_visit_widget.php';
+		require './sw-files/backend/all_visit_widget.php';
 		
 		
 		$this->output('</div>');
