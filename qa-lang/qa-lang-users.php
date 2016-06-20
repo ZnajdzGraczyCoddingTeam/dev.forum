@@ -26,7 +26,7 @@
 		'approve_required' => "Poczekaj aż Twoje konto zostanie zatwierdzone lub ^1dodaj więcej informacji^2.",
 		'approve_title' => "Użytkownik w oczekiwaniu na zatwierdzenie",
 		'approve_user_button' => "Zatwierdź Użytkownika",
-		'approved_user' => "Zatwierdzony Gracz",
+		'approved_user' => "Gracz",
 		'avatar_default' => 'Domyślne',
 		'avatar_gravatar' => 'Pokaż mój ^1Gravatar^2',
 		'avatar_label' => 'Awatar:',
