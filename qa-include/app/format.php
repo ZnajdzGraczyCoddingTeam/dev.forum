@@ -694,7 +694,22 @@
 		return qa_lang_html_sub_split('main/by_x', $whohtml);
 	}
 
-
+			// username colors
+		if ($userlevel > 0) {
+			switch ($userlevel) {
+				case QA_USER_LEVEL_SUPER: $colorClass = 'admin'; break;
+				case QA_USER_LEVEL_ADMIN: $colorClass = 'admin'; break;
+				case QA_USER_LEVEL_MODERATOR: $colorClass = 'moderator'; break;
+				case QA_USER_LEVEL_EDITOR: $colorClass = 'editor'; break;
+				case QA_USER_LEVEL_EXPERT: $colorClass = 'expert'; break;
+				default: $colorClass = ''; break;
+			}
+			if (!empty($colorClass)) {
+				$toReturn['data'] = '<span class="user-'.$colorClass.'">'.$toReturn['data'].'</span>';
+			}
+		}
+		return $toReturn;
+	}
 	function qa_when_to_html($timestamp, $fulldatedays)
 /*
 	Return array of split HTML (prefix, data, suffix) to represent unix $timestamp, with the full date shown if it's
