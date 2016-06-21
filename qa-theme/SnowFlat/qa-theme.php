@@ -70,9 +70,9 @@ class qa_html_theme extends qa_html_theme_base
 		case QA_USER_LEVEL_APPROVED:
 			$class= 'user-approved';
 		break;
-		case QA_USER_LEVEL_BASIC:
-			$class = 'user-no-approved';
-		break;
+		//case QA_USER_LEVEL_BASIC:
+		//	$class = 'user-no-approved';
+		//break;
 		case QA_USER_LEVEL_EXPERT:
 			$class= 'user-expert';
 		break;
