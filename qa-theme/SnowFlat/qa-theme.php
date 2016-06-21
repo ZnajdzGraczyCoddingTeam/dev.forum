@@ -62,6 +62,8 @@ class qa_html_theme extends qa_html_theme_base
 {
     $class = '';
 
+	ini_set("display_errors", 0);
+
     switch ($post['raw']['level']) {
         case QA_USER_LEVEL_SUPER:
         case QA_USER_LEVEL_ADMIN:
@@ -70,9 +72,9 @@ class qa_html_theme extends qa_html_theme_base
 		case QA_USER_LEVEL_APPROVED:
 			$class= 'user-approved';
 		break;
-		//case QA_USER_LEVEL_BASIC:
-		//	$class = 'user-no-approved';
-		//break;
+		case QA_USER_LEVEL_BASIC:
+			$class = 'user-no-approved';
+		break;
 		case QA_USER_LEVEL_EXPERT:
 			$class= 'user-expert';
 		break;
@@ -87,6 +89,8 @@ class qa_html_theme extends qa_html_theme_base
     $post['who']['data'] = '<span class="' . $class . '">' . $post['who']['data'] . '</span>';
     parent::post_meta_who($post, $class);
 }
+
+	ini_set("dispay_errors", 1);
 
 	/**
 	 * Adding theme stylesheets
