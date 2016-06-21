@@ -64,8 +64,6 @@ class qa_html_theme extends qa_html_theme_base
 
     switch ($post['raw']['level']) {
         case QA_USER_LEVEL_SUPER:
-            $class = 'user-superadmin';	
-        break;
         case QA_USER_LEVEL_ADMIN:
             $class = 'user-admin';
         break;
