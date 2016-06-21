@@ -9,7 +9,18 @@
 */
 /* swjaco11 code */
 
-/* user admin - administrator i super administrator*/
+/* usersuperadmin - SuperAdministrator*/
+.user-superadmin, .user-superadmin a{
+	color: purple;
+	font-weight: bold;
+}
+
+.user-superadmin, .user-superadmin a:hover{
+	color: lightpurple;
+	font-weight: bold;
+}
+
+/* user admin - administrator*/
 
 .user-admin, .user-admin a{
 	color: darkred;
