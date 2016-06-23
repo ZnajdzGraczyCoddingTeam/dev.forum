@@ -123,7 +123,14 @@ class qa_html_theme extends qa_html_theme_base
 	public function head_script()
 	{
 		$jsUrl = $this->rooturl . $this->js_dir . '/snow-core.js?' . QA_VERSION;
-		$this->content['script'][] = '<script src="' . $jsUrl . '"></script>';
+		$this->content['script'][] = '<script src="' . $jsUrl . '"></script><script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78471036-2', 'auto');
+  ga('send', 'pageview');
+</script>';
 
 		parent::head_script();
 	}
