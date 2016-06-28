@@ -9,8 +9,28 @@
 */
 /* swjaco11 code */
 
+.footer_before{
+	background: potato;
+	height: 150px;
+	width: 100% !important;
+}
 
-/* user admin - administrator*/
+.footer_left{
+	float: left;
+	width: 33.3333%;
+}
+
+.footer_center{
+	float: left;
+	width: 33.333%;
+}
+
+.footer_right{
+	float: left;
+	width: 33.3333%;
+}
+
+/* user admin - administrator i super administrator*/
 
 .user-admin, .user-admin a{
 	color: darkred;
@@ -34,7 +54,8 @@
 }
 
 .qa-a-item-what a, .qa-a-item-what, .qa-a-item-what a:hover, .qa-a-item-what a:focus, .qa-a-item-what a, .qa-a-item-what a:visited{
-	color: grey;
+	color: pink;
+	font-weight: bold;
 }
 
 /* user editor - redaktor*/
