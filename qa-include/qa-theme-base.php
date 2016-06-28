@@ -826,8 +826,31 @@ class qa_html_theme_base
 		$this->output('<div class="sw-user-calculate>"');
 		
 		
-		require './sw-files/backend/all_visit_widget.php';
+		@require './sw-files/backend/all_visit_widget.php';
 		
+		
+		$this->output('</div>');
+		
+		$this->output('<div class="footer_before">');
+		
+		$this->output('<div class="footer_left">');
+		
+		$this->output(' <div class="fb-page" data-href=" https://www.facebook.com/Szukajgraczypl-1125660220813803/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite=" https://www.facebook.com/Szukajgraczypl-1125660220813803/" class="fb-xfbml-parse-ignore"><a href=" https://www.facebook.com/Szukajgraczypl-1125660220813803/">Szukajgraczy.pl</a></blockquote></div>
+');
+	
+		$this->output('</div>');
+		
+		$this->output('<div class="footer_center">');
+		
+		$this->output('<a style="text-decoration: none;" href="http://steamcommunity.com/groups/znajdzgraczy"><img src="https://maxcdn.icons8.com/Color/PNG/96/Logos/steam-96.png" alt="Steam"></a>');
+		
+		$this->output('</div>');
+		
+		$this->output('<div class="footer_right">');
+		
+		$this->output('<iframe width="50%" height="130" src="https://www.youtube.com/embed/EBLF1Waz5lY" frameborder="0" allowfullscreen></iframe>');
+		
+		$this->output('</div>');
 		
 		$this->output('</div>');
 		
